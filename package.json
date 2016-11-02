@@ -1,0 +1,16 @@
+{
+  "name": "dyno",
+  "version": "0.0.1",
+  "description": "Just for testing DynamoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "AWS_ACCESS_KEY_ID=x AWS_SECRET_ACCESS_KEY=y node server.js"
+  },
+  "author": "Pouria Maleki",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.13",
+    "dynalite": "^1.0.3",
+    "when": "^3.7.7"
+  }
+}
